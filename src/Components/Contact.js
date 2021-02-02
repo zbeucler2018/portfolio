@@ -20,10 +20,10 @@ class Contact extends Component {
 
       emailjs
         .sendForm(
-          process.env.EMAILJS_SERVICE_ID,
-          process.env.EMAILJS_TEMPLATE_ID,
+          process.env.REACT_APP_EMAILJS_SERVICE_ID,
+          process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
           e.target,
-          process.env.EMAILJS_USER_ID
+          process.env.REACT_APP_EMAILJS_USER_ID
         )
         .then(
           (result) => {
