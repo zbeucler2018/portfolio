@@ -150,7 +150,7 @@
         "title":"Local Food Finder",
         "category":"Find food around you using Yelp's Data API",
         "image":"YelpFoodFinder.png",
-        "url":""
+        "url":"https://github.com/zbeucler2018/Yelp-Clone"
       },
       {
         "title":"BlackJack",
@@ -162,7 +162,7 @@
         "title":"Reddit Content Farm",
         "category":"A script that creates video complations of TTS Reddit posts",
         "image":"RedditFarm.jpg",
-        "url":""
+        "url":"https://github.com/zbeucler2018/Reddit-Content-Farm"
       }
     ]
   },
