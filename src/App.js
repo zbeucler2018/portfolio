@@ -18,17 +18,19 @@ class App extends Component {
       resumeData: {},
       data: "idk",
     };
-
+    /*
     ReactGA.initialize("UA-110570651-1");
     ReactGA.pageview(window.location.pathname);
+    console.log(ReactGA.pageview(window.location.pathname));
+    */
   }
 
-  componentDidMount() {
+  /*componentDidMount() {
     // Call our fetch function below once the component mounts
     this.callBackendAPI()
       .then((res) => this.setState({ data: res.express }))
       .catch((err) => console.log(err));
-  }
+  }*/
   // Fetches our GET route from the Express server. (Note the route we are fetching matches the GET route from server.js
   callBackendAPI = async () => {
     const response = await fetch("/express_backend");
@@ -57,6 +59,7 @@ class App extends Component {
 
   componentDidMount() {
     this.getResumeData();
+    ReactGA.initialize("UA-188784392-1");
   }
 
   render() {
