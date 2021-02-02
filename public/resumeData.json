@@ -48,13 +48,13 @@
       {
         "school":"Connecticut Collegge",
         "degree":"Computer Science Major",
-        "graduated":"May 2022",
+        "graduated":"Date of Graduation: May 2022",
         "description":"Member of the Men's Varsity Swim and Dive Team specializing in distance freestyle events. and other stuff"
       },
       {
         "school":"Andover Public High School",
         "degree":"High School Education",
-        "graduated":"June 2018",
+        "graduated":"Date of Graduation: June 2018",
         "description":"Four-year varsity athlete on the Andover Public High School Varsity Swim and Dive Team. Senior Captian of Swim and Dive Team. "
       }
     ],
@@ -64,7 +64,7 @@
         "companyURL":"https://www.lyniate.com/",
         "title":"IT Intern",
         "years":"December 2020 - January 2021",
-        "description":"work, projects, achievements, technologies",
+        "description":"Worked with the IT and HR teams to create a 'Sunrise' New Hire application using Microsoft Power Apps, Sharepoint, and Microsoft Power Automate. This project ranged from requirement gathering to software development to quality control and data security in order to create a complete application.",
         "techUsed":"Microsoft PowerApps, Microsoft Power Automate, Microsoft Sharepoint Lists"
       },
       {
@@ -72,7 +72,7 @@
         "companyURL":"https://www.apollo.io/companies/Adventure-Corporation/5a9e5c98a6da98d95ff95fe9?chart=count",
         "title":"Web Development Intern",
         "years":"May 2020 - Present",
-        "description":"work, projects, achievements, technologies",
+        "description":"First I was tasked with studying the of fundamentals of blockchains and Ethereum. Then, I developed a web application with Node.js and React.js that allowed a user to transfer ERC 20 tokens from the Adventure Corporation API to the user's MetaMask wallet. After that, I was tasked with developing a Twitch Extension with Node.js and React.js that counts the amount of Twitch 'Emotes' viewers send into the Streamer's chat. The extension also displayed a live count of the emotes and the number of times that emote has been sent in the chat. I also developed a multiplayer speed typing game using React.js, Node.js, and Socket.io.",
         "techUsed":"HTML5, CSS, ReactJS, Node.js, Ethereum, Socket.io, MetaMask, HTML5, CSS, JavaScript"
       }
     ],
