@@ -37,7 +37,7 @@ class Footer extends Component {
               )
             }
           >
-            Send me Crypto! <i class="fab fa-ethereum"></i>
+            Send me Crypto! <i className="fab fa-ethereum"></i>
           </p>
         </div>
       </footer>
