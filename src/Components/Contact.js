@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import emailjs from "emailjs-com";
+import env from "react-dotenv";
 
 class Contact extends Component {
   render() {
@@ -20,15 +21,22 @@ class Contact extends Component {
 
       emailjs
         .sendForm(
-          process.env.REACT_APP_EMAILJS_SERVICE_ID,
-          process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+          window.env.REACT_APP_EMAILJS_SERVICE_ID,
+          window.env.REACT_APP_EMAILJS_TEMPLATE_ID,
           e.target,
-          process.env.REACT_APP_EMAILJS_USER_ID
+          window.env.REACT_APP_EMAILJS_USER_ID
         )
         .then(
           (result) => {
             alert("Message sent! Thank you!");
             console.log(result.text);
+            console.log(
+              window.env.REACT_APP_EMAILJS_SERVICE_ID +
+                " " +
+                window.env.REACT_APP_EMAILJS_TEMPLATE_ID +
+                " " +
+                window.env.REACT_APP_EMAILJS_USER_ID
+            );
             clearContactForm();
           },
           (error) => {
@@ -38,11 +46,11 @@ class Contact extends Component {
             console.log(error.text);
             clearContactForm();
             console.log(
-              process.env.REACT_APP_EMAILJS_SERVICE_ID +
+              window.env.REACT_APP_EMAILJS_SERVICE_ID +
                 " " +
-                process.env.REACT_APP_EMAILJS_TEMPLATE_ID +
+                window.env.REACT_APP_EMAILJS_TEMPLATE_ID +
                 " " +
-                process.env.REACT_APP_EMAILJS_USER_ID
+                window.env.REACT_APP_EMAILJS_USER_ID
             );
           }
         );
