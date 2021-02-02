@@ -37,6 +37,13 @@ class Contact extends Component {
             );
             console.log(error.text);
             clearContactForm();
+            console.log(
+              process.env.EMAILJS_SERVICE_ID +
+                " " +
+                process.env.EMAILJS_TEMPLATE_ID +
+                " " +
+                process.env.EMAILJS_USER_ID
+            );
           }
         );
     }

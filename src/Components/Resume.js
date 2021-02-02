@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+require("dotenv").config();
 
 class Resume extends Component {
   render() {
@@ -18,7 +19,6 @@ class Resume extends Component {
       });
 
       var work = this.props.data.work.map(function (work) {
-        console.log(work);
         if (work.companyURL === "") {
           return (
             <div key={work.company}>

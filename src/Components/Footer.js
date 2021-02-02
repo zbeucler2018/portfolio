@@ -26,6 +26,20 @@ class Footer extends Component {
             </a>
           </div>
         </div>
+        <div className="row">
+          <p
+            onClick={() =>
+              navigator.clipboard.writeText(
+                "0x4c91498Cfc2449709999b6d0b149f45BC7830563"
+              ) &&
+              alert(
+                "My MetaMask wallet address has been saved to your keyboard! Thanks for the Crypto!"
+              )
+            }
+          >
+            Send me Crypto! <i class="fab fa-ethereum"></i>
+          </p>
+        </div>
       </footer>
     );
   }
