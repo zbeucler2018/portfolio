@@ -20,10 +20,10 @@ class Contact extends Component {
 
       emailjs
         .sendForm(
-          "portfolio-gmail",
-          "template_8h9kupa",
+          process.env.EMAILJS_SERVICE_ID,
+          process.env.EMAILJS_TEMPLATE_ID,
           e.target,
-          "user_thnMj1e968MDyPFEZTVra"
+          process.env.EMAILJS_USER_ID
         )
         .then(
           (result) => {
