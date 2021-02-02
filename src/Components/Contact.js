@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import emailjs from "emailjs-com";
-import env from "react-dotenv";
 
 class Contact extends Component {
   render() {
