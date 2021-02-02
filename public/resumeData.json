@@ -1,0 +1,177 @@
+{
+  "main": {
+    "name":"Zachary Beucler",
+    "occupation":"Computer Science Student",
+    "description":"I am passionate about building software and learning new technoligies. In my freetime, I research new concepts and topics in order to broaden my knowledge",
+    "image":"profilepic.jpg",
+    "bio":"Hi! I'm a Junior Computer Science student at Connecticut College. I love any type of software development, especially web development or automation software. I am also a member of the Connecticut College Men's Varsity Swim Team where I specialize in long distance freestyle events. I also enjoy watching the NBA, NFL, and ISL (International Swimming League). Thanks for checking out my website!",
+    "contactmessage":"Feel free to send me a message!",
+    "email": "zbeucler@conncoll.edu",
+    "phone": "978-809-0596",
+    "address":{
+      "city":"Boston",
+      "state":"MA"
+    },
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/zbeucler/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/zbeucler2018",
+        "className":"fa fa-github"
+
+      },
+      {
+        "name":"AnglelList",
+        "url":"https://angel.co/u/zachary-beucler",
+        "className":"fa fa-angellist"
+      },
+      {
+        "name":"HackerRank",
+        "url":"https://www.hackerrank.com/zbeucler",
+        "className":"fab fa-hackerrank"
+      },
+      {
+        "name":"StackOverflow",
+        "url":"https://stackoverflow.com/users/11307134/zack-beucler",
+        "className":"fa fa-stack-overflow"
+      }
+
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here are some of my technical skills",
+    "education":[
+      {
+        "school":"Connecticut Collegge",
+        "degree":"Computer Science Major",
+        "graduated":"May 2022",
+        "description":"Member of the Men's Varsity Swim and Dive Team specializing in distance freestyle events. and other stuff"
+      },
+      {
+        "school":"Andover Public High School",
+        "degree":"High School Education",
+        "graduated":"June 2018",
+        "description":"Four-year varsity athlete on the Andover Public High School Varsity Swim and Dive Team. Senior Captian of Swim and Dive Team. "
+      }
+    ],
+    "work":[
+      {
+        "company":"Lyniate",
+        "companyURL":"https://www.lyniate.com/",
+        "title":"IT Intern",
+        "years":"December 2020 - January 2021",
+        "description":"work, projects, achievements, technologies",
+        "techUsed":"Microsoft PowerApps, Microsoft Power Automate, Microsoft Sharepoint Lists"
+      },
+      {
+        "company":"Adventure Corporation",
+        "companyURL":"https://www.apollo.io/companies/Adventure-Corporation/5a9e5c98a6da98d95ff95fe9?chart=count",
+        "title":"Web Development Intern",
+        "years":"May 2020 - Present",
+        "description":"work, projects, achievements, technologies",
+        "techUsed":"HTML5, CSS, ReactJS, Node.js, Ethereum, Socket.io, MetaMask, HTML5, CSS, JavaScript"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"85%",
+        "framework":""
+      },
+      {
+        "name":"CSS",
+        "level":"85%",
+        "framework":""
+      },
+      {
+        "name":"ReactJs",
+        "level":"80%",
+        "framework":"y"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%",
+        "framework":""
+      },
+      {
+        "name":"JavaScript",
+        "level":"80%",
+        "framework":""
+      },
+      {
+        "name":"Git and Github",
+        "level":"60%",
+        "framework":""
+      },
+      {
+        "name":"TypeScript",
+        "level":"50%",
+        "framework":""
+      },
+      {
+        "name":"Java",
+        "level":"40%",
+        "framework":""
+      },
+      {
+        "name":"Microsoft PowerApps",
+        "level":"40%",
+        "framework":""
+      },
+      {
+        "name":"Node.js",
+        "level":"30%",
+        "framework":""
+      },
+      {
+        "name":"Bash",
+        "level":"25%",
+        "framework":""
+      },
+      {
+        "name":"AngularJS",
+        "level":"15%",
+        "framework":"y"
+      },
+      {
+        "name":"Swift",
+        "level":"15%",
+        "framework":""
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Local Food Finder",
+        "category":"Find food around you using Yelp's Data API",
+        "image":"YelpFoodFinder.png",
+        "url":""
+      },
+      {
+        "title":"BlackJack",
+        "category":"A GUI BlackJack game written in Python",
+        "image":"PyBlackJack.png",
+        "url":"https://github.com/zbeucler2018/BlackJack-Python"
+      },
+      {
+        "title":"Reddit Content Farm",
+        "category":"A script that creates video complations of TTS Reddit posts",
+        "image":"RedditFarm.jpg",
+        "url":""
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      }
+    ]
+  }
+}
