@@ -34,8 +34,7 @@ class Footer extends Component {
               ) &&
               alert(
                 "My MetaMask wallet address has been saved to your keyboard! Thanks for the Crypto!"
-              ) &&
-              console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID)
+              )
             }
           >
             Send me Crypto! <i className="fab fa-ethereum"></i>

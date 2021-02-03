@@ -20,15 +20,22 @@ class Contact extends Component {
 
       emailjs
         .sendForm(
-          process.env.REACT_APP_EMAILJS_SERVICE_ID,
-          process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+          window.env.REACT_APP_EMAILJS_SERVICE_ID,
+          window.env.REACT_APP_EMAILJS_TEMPLATE_ID,
           e.target,
-          process.env.REACT_APP_EMAILJS_USER_ID
+          window.env.REACT_APP_EMAILJS_USER_ID
         )
         .then(
           (result) => {
             alert("Message sent! Thank you!");
             console.log(result.text);
+            console.log(
+              window.env.REACT_APP_EMAILJS_SERVICE_ID +
+                " " +
+                window.env.REACT_APP_EMAILJS_TEMPLATE_ID +
+                " " +
+                window.env.REACT_APP_EMAILJS_USER_ID
+            );
             clearContactForm();
           },
           (error) => {

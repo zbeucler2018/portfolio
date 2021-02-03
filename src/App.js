@@ -9,6 +9,7 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Testimonials from "./Components/Testimonials";
 import Portfolio from "./Components/Portfolio";
+import { PageView, initGA } from "./Components/Tracking/index";
 
 class App extends Component {
   constructor(props) {
@@ -18,17 +19,19 @@ class App extends Component {
       resumeData: {},
       data: "idk",
     };
-
+    /*
     ReactGA.initialize("UA-110570651-1");
     ReactGA.pageview(window.location.pathname);
+    console.log(ReactGA.pageview(window.location.pathname));
+    */
   }
 
-  componentDidMount() {
+  /*componentDidMount() {
     // Call our fetch function below once the component mounts
     this.callBackendAPI()
       .then((res) => this.setState({ data: res.express }))
       .catch((err) => console.log(err));
-  }
+  }*/
   // Fetches our GET route from the Express server. (Note the route we are fetching matches the GET route from server.js
   callBackendAPI = async () => {
     const response = await fetch("/express_backend");
@@ -57,6 +60,8 @@ class App extends Component {
 
   componentDidMount() {
     this.getResumeData();
+    initGA("UA-188784392-1");
+    PageView();
   }
 
   render() {

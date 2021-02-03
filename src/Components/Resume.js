@@ -38,7 +38,7 @@ class Resume extends Component {
           return (
             <div key={work.company}>
               <h3>
-                <a href={work.companyURL} target="_blank">
+                <a href={work.companyURL} target="_blank" rel="noreferrer">
                   {work.company}
                 </a>
               </h3>
