@@ -191,6 +191,18 @@
         "category":"This app lets a user to create valid HTML forms by dragging and dropping elements",
         "image":"formBuilder.png",
         "url":"https://github.com/zbeucler2018/FieldNavFormBuilder"
+      },
+      {
+        "title":"Matlab Vehical Brand Classifier",
+        "category":"This app can classifiy different car brands based on HOG features and Bag-Of-Features.",
+        "image":"carClassifier.jpeg",
+        "url":"https://github.com/zbeucler2018/Classifying-Cars-By-Brand-with-Matlab"
+      },
+      {
+        "title":"Zack's Pose Game",
+        "category":"A interactive game inwhich the user is put into different poses to score points.",
+        "image":"poseGame.png",
+        "url":"https://github.com/zbeucler2018/Zacks-Pose-Game"
       }
     ]
   },
