@@ -169,16 +169,28 @@
         "url":"https://github.com/zbeucler2018/Yelp-Clone"
       },
       {
-        "title":"BlackJack",
-        "category":"A GUI BlackJack game written in Python",
-        "image":"PyBlackJack.png",
-        "url":"https://github.com/zbeucler2018/BlackJack-Python"
-      },
-      {
         "title":"Reddit Content Farm",
         "category":"A script that creates video complations of TTS Reddit posts",
         "image":"RedditFarm.jpg",
         "url":"https://github.com/zbeucler2018/Reddit-Content-Farm"
+      },
+      {
+        "title":"Matlab Vehical Brand Classifier",
+        "category":"This app can classifiy different car brands based on HOG features and Bag-Of-Features.",
+        "image":"carClassifier.jpeg",
+        "url":"https://github.com/zbeucler2018/Classifying-Cars-By-Brand-with-Matlab"
+      },
+      {
+        "title":"Zack's Pose Game",
+        "category":"A interactive game inwhich the user is put into different poses to score points.",
+        "image":"poseGame.png",
+        "url":"https://github.com/zbeucler2018/Zacks-Pose-Game"
+      },
+      {
+        "title":"Simple Perceptron From Scratch",
+        "category":"A simple perceptron written from scratch in python",
+        "image":"Perceptron.png",
+        "url":"https://github.com/zbeucler2018/Zacks-Pose-Game"
       },
       {
         "title":"AWS Cognito Userpool proof of concept",
@@ -193,17 +205,12 @@
         "url":"https://github.com/zbeucler2018/FieldNavFormBuilder"
       },
       {
-        "title":"Matlab Vehical Brand Classifier",
-        "category":"This app can classifiy different car brands based on HOG features and Bag-Of-Features.",
-        "image":"carClassifier.jpeg",
-        "url":"https://github.com/zbeucler2018/Classifying-Cars-By-Brand-with-Matlab"
-      },
-      {
-        "title":"Zack's Pose Game",
-        "category":"A interactive game inwhich the user is put into different poses to score points.",
-        "image":"poseGame.png",
-        "url":"https://github.com/zbeucler2018/Zacks-Pose-Game"
+        "title":"BlackJack",
+        "category":"A GUI BlackJack game written in Python",
+        "image":"PyBlackJack.png",
+        "url":"https://github.com/zbeucler2018/BlackJack-Python"
       }
+
     ]
   },
   "testimonials":{
@@ -215,3 +222,6 @@
     ]
   }
 }
+
+
+
