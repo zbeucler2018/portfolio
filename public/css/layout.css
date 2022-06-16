@@ -478,7 +478,10 @@ ul#nav li.current a {
 
 /* Portfolio Content */
 #portfolio-wrapper .columns {
-  margin-bottom: 36px;
+  /* 255 x 163.91 */
+  min-width: 255px;
+  min-height: 163.91px;
+  margin-bottom: 32px;
 }
 .portfolio-item .item-wrap {
   background: #fff;
