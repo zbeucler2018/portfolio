@@ -4,7 +4,7 @@
     "occupation":"Computer Science Student",
     "description":"I am passionate about building software and learning new technoligies. In my freetime, I research new concepts and topics in order to broaden my knowledge",
     "image":"profilepic.jpg",
-    "bio":"Hi! I'm a Senior Computer Science student at Connecticut College. I love any type of software development, especially computer vision, AI, machine learning, web development, and automation software. I am also a member of the Connecticut College Men's Varsity Swim Team where I specialize in long distance freestyle events. I also enjoy watching the NBA, NFL, and ISL (International Swimming League). Thanks for checking out my website!",
+    "bio":"Hi! I'm a Connecticut College recent grad with a major in Computer Science. I love any type of software development, especially computer vision, AI, machine learning, web development, and automation software. I am also a member of the Connecticut College Men's Varsity Swim Team where I specialize in long distance freestyle events. I also enjoy watching the NBA, NFL, and ISL (International Swimming League). Thanks for checking out my website!",
     "contactmessage":"Feel free to send me a message!",
     "email": "zbeucler@gmail.com",
     "phone": "978-809-0596",
@@ -22,7 +22,6 @@
         "name":"github",
         "url":"http://github.com/zbeucler2018",
         "className":"fa fa-github"
-
       },
       {
         "name":"AnglelList",
@@ -49,7 +48,7 @@
         "school":"Connecticut Collegge",
         "degree":"Computer Science Major",
         "graduated":"Date of Graduation: May 2022",
-        "description":"Member of the Men's Varsity Swim and Dive Team specializing in distance freestyle events. Also a member of the Data, information, and Society Pathway."
+        "description":"Four-year varsity athlete on the Men's Varsity Swim and Dive Team specializing in distance freestyle events."
       },
       {
         "school":"Andover Public High School",
