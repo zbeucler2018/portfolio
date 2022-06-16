@@ -46,16 +46,7 @@
     
   },
   "react-dotenv": {
-<<<<<<< Updated upstream
     "whitelist": ["API_URL"]
-=======
-    "whitelist": [
-      "API_URL"
-    ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
->>>>>>> Stashed changes
   }
   
 }
