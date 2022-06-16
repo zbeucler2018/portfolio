@@ -4,7 +4,11 @@
     "occupation":"Computer Science Student",
     "description":"I am passionate about building software and learning new technoligies. In my freetime, I research new concepts and topics in order to broaden my knowledge",
     "image":"profilepic.jpg",
+<<<<<<< Updated upstream
     "bio":"Hi! I'm a Junior Computer Science student at Connecticut College. I love any type of software development, especially web development or automation software. I am also a member of the Connecticut College Men's Varsity Swim Team where I specialize in long distance freestyle events. I also enjoy watching the NBA, NFL, and ISL (International Swimming League). Thanks for checking out my website!",
+=======
+    "bio":"Hi! I'm a Connecticut College recent grad with a major in Computer Science. I love any type of software development, especially computer vision, AI, machine learning, web development, and automation software. I am also a member of the Connecticut College Men's Varsity Swim Team where I specialize in long distance freestyle events. I also enjoy watching the NBA, NFL, and ISL (International Swimming League). Thanks for checking out my website!",
+>>>>>>> Stashed changes
     "contactmessage":"Feel free to send me a message!",
     "email": "zbeucler@conncoll.edu",
     "phone": "978-809-0596",
@@ -22,7 +26,6 @@
         "name":"github",
         "url":"http://github.com/zbeucler2018",
         "className":"fa fa-github"
-
       },
       {
         "name":"AnglelList",
@@ -49,7 +52,7 @@
         "school":"Connecticut Collegge",
         "degree":"Computer Science Major",
         "graduated":"Date of Graduation: May 2022",
-        "description":"Member of the Men's Varsity Swim and Dive Team specializing in distance freestyle events. Also a member of the Data, information, and Society Pathway."
+        "description":"Four-year varsity athlete on the Men's Varsity Swim and Dive Team specializing in distance freestyle events."
       },
       {
         "school":"Andover Public High School",
@@ -153,7 +156,47 @@
         "url":"https://github.com/zbeucler2018/Yelp-Clone"
       },
       {
+<<<<<<< Updated upstream
         "title":"BlackJack",
+=======
+        "title":"Reddit Content Farm",
+        "category":"A script that creates video complations of TTS Reddit posts",
+        "image":"RedditFarm.jpg",
+        "url":"https://github.com/zbeucler2018/Reddit-Content-Farm"
+      },
+      {
+        "title":"Matlab Vehical Brand Classifier",
+        "category":"This app can classifiy different car brands based on HOG features and Bag-Of-Features.",
+        "image":"carClassifier.jpeg",
+        "url":"https://github.com/zbeucler2018/Classifying-Cars-By-Brand-with-Matlab"
+      },
+      {
+        "title":"Zack's Pose Game",
+        "category":"A interactive game inwhich the user is put into different poses to score points.",
+        "image":"poseGame.png",
+        "url":"https://github.com/zbeucler2018/Zacks-Pose-Game"
+      },
+      {
+        "title":"Simple Perceptron From Scratch",
+        "category":"A simple perceptron written from scratch in python",
+        "image":"Perceptron.png",
+        "url":"https://github.com/zbeucler2018/Perceptron-From-Scratch"
+      },
+      {
+        "title":"AWS Cognito Userpool proof of concept",
+        "category":"An app that allows the user to view, add, and delete users from a AWS Cognito userpool",
+        "image":"aws-cognito.png",
+        "url":"https://github.com/zbeucler2018/AWS-Cognito-Userpool-work"
+      },
+      {
+        "title":"FieldNav Low-Code Form Builder",
+        "category":"This app lets a user to create valid HTML forms by dragging and dropping elements",
+        "image":"formBuilder.png",
+        "url":"https://github.com/zbeucler2018/FieldNavFormBuilder"
+      },
+      {
+        "title":"Python BlackJack",
+>>>>>>> Stashed changes
         "category":"A GUI BlackJack game written in Python",
         "image":"PyBlackJack.png",
         "url":"https://github.com/zbeucler2018/BlackJack-Python"
